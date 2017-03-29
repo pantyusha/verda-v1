@@ -14,9 +14,7 @@ namespace Verda
         {
             try
             {
-                WebRequest wrGETURL;
-                wrGETURL = WebRequest.Create("http://verda.zz.mu/reports/uploadreport.php?string=" + report);
-                wrGETURL.GetResponse();
+               
             }
             catch (Exception) { }
         }
